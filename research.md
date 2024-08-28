@@ -8,8 +8,8 @@ Then, select both the ethernet adapter used to connect to the waterlinked and th
 
 # IP Addresses
 
-Laptop: 192.168.2.1
-BlueROV: 192.168.2.2
+Laptop: 192.168.2.1 \
+BlueROV: 192.168.2.2 \
 Waterlinked: 192.168.2.94
 
 The BlueROV and Waterlinked host web interfaces for further configuration and software updates.
@@ -37,11 +37,11 @@ If you downloaded a zip file, extract the tar file it should contain
 
 # SSH into BlueROV
 
-ip: 192.168.2.2
-username: pi
+ip: 192.168.2.2 \
+username: pi \
 password: raspberry
 
-# Working testing protocol
+# Working test protocol
 
 - Setup ROV
   - TODO
